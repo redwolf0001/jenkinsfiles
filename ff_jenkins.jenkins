@@ -13,7 +13,9 @@ pipeline {
 	stages {
 		stage("First step") {
 			steps {
-				sh 'ping ea.com/'
+				cmd
+				ping ea.com
+				//sh 'ping ea.com/'
 			}
 		}
 		stage("Second step") {
