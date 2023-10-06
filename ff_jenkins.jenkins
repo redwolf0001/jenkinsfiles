@@ -18,7 +18,7 @@ pipeline {
 		}
 		stage("Second step") {
 			steps {
-				bat 'ping rule34.xxx/'
+				bat 'ping vk.com'
 			}
 		}
 	}
