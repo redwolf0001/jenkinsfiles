@@ -13,7 +13,6 @@ pipeline {
 	stages {
 		stage("First step") {
 			steps {
-				cmd
 				ping ea.com
 				//sh 'ping ea.com/'
 			}
