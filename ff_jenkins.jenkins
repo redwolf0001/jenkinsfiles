@@ -13,7 +13,7 @@ pipeline {
 	stages {
 		stage("First step") {
 			steps {
-				ping ea.com
+				bat 'ping ea.com'
 				//sh 'ping ea.com/'
 			}
 		}
