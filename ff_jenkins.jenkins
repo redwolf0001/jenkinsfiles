@@ -14,12 +14,11 @@ pipeline {
 		stage("First step") {
 			steps {
 				bat 'ping ea.com'
-				//sh 'ping ea.com/'
 			}
 		}
 		stage("Second step") {
 			steps {
-				sh 'ping rule34.xxx/'
+				bat 'ping rule34.xxx/'
 			}
 		}
 	}
